@@ -1,0 +1,19 @@
+.cabecera-superior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+}
+a:hover{
+	color: #acdbdf;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+strong{
+	font-weight: bold;
+}
+.mushare{
+	padding: 20px 180px;
+	font-size: 28px; 
+}

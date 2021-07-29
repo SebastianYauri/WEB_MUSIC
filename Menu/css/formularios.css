@@ -1,0 +1,63 @@
+body{
+	background-image: url(../fondos/0013.gif);
+	font-family:'Noto Sans JP' ;
+	font-size: 1rem;
+}
+
+.input{
+	font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 2px solid #BABABA;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+  }
+  .boton_personalizado:hover{
+  	font-weight: 600;
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+.texto_centrar{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+  }
+p{
+    color:#000;
+}
+.img{  
+    height: 200px;
+    width: 800px;
+}
+.formulario{
+    text-align: center;
+    background: #FFFFFF;
+    margin: 5%;
+}
+
+.formulario p{
+
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+@media (min-width: 780px){
+.centrar_2{
+    background-color: #FFFFFF;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+}

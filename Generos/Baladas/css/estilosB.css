@@ -1,0 +1,321 @@
+
+body{
+    font-family:'Noto Sans JP' ;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+strong{
+	font-weight: bold;
+}
+
+
+/*GENERICO*/
+.tablaindice a{
+	text-decoration: none;
+	color: #000000;
+}
+.tablaindice a:hover{
+	color: #acdbdf;
+}
+.centrado{
+	text-align: center;
+}
+
+
+.listaindice{
+	text-decoration: none;
+	color: #000000;
+}
+.mushare{
+	color: #FFFFFF;
+	padding: 20px 200px;
+	font-size: 28px;
+}
+
+.tablaindice{
+	display: flex;
+	flex-direction: row;
+	margin-right: 20%;
+		margin-left: 20%;	
+	}
+/*INFORMACION CANTANTES*/
+.margentitulo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 200px 0px 200px ;
+    }
+
+.margeninfoC{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0px 200px 0px 200px ;
+    }
+
+.tablagenero{
+	background-color: #000000;
+	margin: -5px;
+}
+
+.itemtablatitulo{
+	color: #FFFFFF;
+	flex-basis: calc(33.3% - 60px);
+}
+
+/*gif barra*/
+
+.gif{
+	margin: 0px;
+}
+.filaGif{
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px;
+}
+.itemGif{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
+/*FOOTER*/
+.footer-link{
+	font-size: 1.5rem;
+	justify-content: space-between;
+	
+}
+.div-lista-de-generos{
+	margin: 0px;
+	padding: 0px;
+	 
+}
+
+
+/*------------*/
+/*   REACCION  */
+/*------------*/
+
+.reaccionfondo{
+	background-color: #FFFFFF;
+}
+.itemreaccion{
+	width: 26%;
+}
+#tituloreaccion{
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+}
+.reaccion{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 300px 0px 300px ;
+	}
+#fondito{
+	background-image: url(../FOTOS/fondito.jpg);
+}
+
+@media (min-width: 780px){
+	.cabecera-superior {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+    }
+	.centrar2{
+		text-align: center;
+	}
+	.margen{
+		margin: 0px 20px;
+	}
+	.item{
+		text-align: center;
+		flex-basis: calc(33.3% - 50px);
+	}
+   
+    .margeninfo{	
+		width: 50%;
+	}
+
+	.indiceimagen{
+		position: relative;	
+		width: 60%;
+		margin-top: -2%;
+		margin-left: 20%;
+		margin-right: 25%;		
+	}
+
+	.indice{
+		display: flex;
+		flex-direction: row;
+		font-style: normal;
+	}
+	.tabla-informacion{
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		margin-left: 10%;
+		margin-right: 20%;
+	}
+}
+
+	/*INFORMACION CANTANTES p2*/
+    
+
+    
+     .margen{
+		margin: 0px 20px;
+	}
+
+	.tabla-cantante-A{
+	   display: flex;
+		justify-content: space-between;
+		background-color:#ffcdab;
+	   text-align: center;
+	
+     }
+
+     .tabla-cantante-B{
+	   display: flex;
+		justify-content: space-between;
+		background-color: #fff4e3;
+		text-align: center;
+	
+     }
+
+    
+    .item-tabla-cantante{
+	   color: #000000;
+	   width: 33.3%;
+    }
+
+	
+	/*RECOMENDACIONES*/
+
+   .fondoreco{
+	background-color: #000000;
+	margin: -5px;
+    }
+
+
+    .tituloreco{
+	color: #FFFFFF;
+    }
+
+
+    .tablareco{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 200px 0px 250px ;
+	}
+    
+
+    .itemcanciones2{
+	color: #060606;
+	width: 28.3% ;
+     }
+   .itemcanciones1{
+	flex-basis: calc(50% - 30px);
+    }
+
+    	.BALADAS{
+		display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%; 
+	}
+
+    .canciones2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+
+
+    /*PLAYLISTS*/
+
+   .playslist{
+	background-color: #FFFFFF;
+}
+.playlisttitulo{
+	display: flex;
+	justify-content: space-between;
+}
+.playlistcolor{
+	background-color: #FFFFFF;
+}
+.itemplaylist{
+	width: 33.3%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.playlistcolor2{
+	background-color: #FFFFFF;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.tituloalbum{
+	color: #000000;
+}
+#tamaño{
+	font-size: 4rem;
+}
+.tamaño2{
+	font-size: 2rem;
+}
+.playlistfila{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+
+
+/*que opinas*/
+#tituloreaccion{
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+}
+
+/*footer*/
+.li{
+	display: inline;
+}
+
+.ul{
+	display: block;
+	list-style-type: disc;
+	padding: 0px 40px;
+}
+.redes{
+	display: inline-flex;
+	align-items: center;
+	overflow: auto;
+	width: 60px;
+	height: 60px;
+	justify-content: flex-end;
+}
+.imgredes{
+	display: inline-flex;
+	width: 35px;
+	height: 35px;
+}
+
+.inferior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	}
+
+
+
+}

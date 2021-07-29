@@ -1,0 +1,350 @@
+
+
+/*---------------------*/
+/*        KPOP         */
+/*---------------------*/
+
+body{
+	font-family:'Noto Sans JP' ;
+	font-size: 1rem;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+strong{
+	font-weight: bold;
+}
+.mushare{
+	color: #FFFFFF;
+	padding: 20px 200px;
+	font-size: 28px;
+}
+.banner{
+	display: flex;
+}
+}
+.width{
+	width: 100%:
+	padding: 4rem;
+}
+
+/*---------------------*/
+/*       HEADER        */
+/*---------------------*/
+.fohe:hover {
+  color: #acdbdf;
+}
+.fohe{
+	text-decoration: none;
+	color: #FFFFFF;
+	margin: 20px;
+}
+
+
+/*---------------------*/
+/*       INDICE        */
+/*---------------------*/
+
+
+.tablaindice{
+	margin: 0px;
+}
+.tablaindice a{
+	text-decoration: none;
+	color: #000000;
+}
+.tablaindice a:hover{
+	color: #acdbdf;
+}
+.a-indice{
+	text-decoration: none;
+	color: #000000;
+}
+#indice1{
+	width: 500px;
+}
+#indice2{
+	width: 100%;
+}
+
+
+
+/*----------------------*/
+/*     TABLA GENERO     */
+/*----------------------*/
+.tablagenero{
+	background-color: #000000;
+	margin: -5px;
+}
+.tablatitulo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+}
+.itemtablatitulo{
+	color: #FFFFFF;
+	flex-basis: calc(33.3% - 60px);
+}
+
+
+/*---------------------*/
+/*     INFORMACION     */
+/*---------------------*/
+
+.tablainfo{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.itemfalso{
+	width: 4%
+}
+.itemtablainfo{
+	color: #000000;
+	width: 33.3%;
+}
+/*EMOTE*/
+.emote{
+	margin: 0px;
+}
+.emotefila{
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px;
+}
+.itememote{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
+
+/*---------------------*/
+/*   RECOMENDACIONES   */
+/*---------------------*/
+
+.fondoreco{
+	background-color: #000000;
+	margin: -5px;
+}
+
+.tituloreco{
+	color: #FFFFFF;
+}
+#fondocanciones{
+	background-color: #FFFFFF;
+}
+
+/*----------------------------*/
+.fondocanciones{
+	background-image: url(../grupos/fondocanciones.jpg);
+}
+
+.itemcanciones2{
+	color: #FFFFFF;
+	width: 33.3% ;
+}
+.itemcanciones1{
+	flex-basis: calc(50% - 30px);
+}
+.imagen{
+	border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+
+
+/*-----------------------*/
+/*   PLAYLISTS SPOTIFY   */
+/*-----------------------*/
+
+.playslist{
+	background-color: #FFFFFF;
+}
+.playlisttitulo{
+	display: flex;
+	justify-content: space-between;
+}
+.playlistcolor{
+	background-color: #FFFFFF;
+}
+.itemplaylist{
+	width: 33.3%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.playlistcolor2{
+	background-color: #FFFFFF;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.tituloalbum{
+	color: #000000;
+}
+
+.tamaño2{
+	font-size: 2rem;
+}
+
+
+
+
+/*------------*/
+/*   REACCION  */
+/*------------*/
+
+.reaccionfondo{
+	background-color: #FFFFFF;
+}
+.itemreaccion{
+	width: 26%;
+}
+#tituloreaccion{
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+}
+
+
+
+/*------------*/
+/*   FOOTER   */
+/*------------*/
+
+.li{
+	display: inline;
+}
+
+.ul{
+	 list-style-type: none;
+	display: block;
+	list-style-type: disc;
+	padding: 0px 40px;
+}
+.redes{
+	display: inline-flex;
+	align-items: center;
+	overflow: auto;
+	width: 60px;
+	height: 60px;
+	justify-content: flex-end;
+}
+.imgredes{
+	display: inline-flex;
+	width: 35px;
+	height: 35px;
+}
+
+.footer-link{
+	font-size: 1.5rem;
+	justify-content: space-between;
+	
+}
+.div-lista-de-generos{
+	margin: 0px;
+	padding: 0px;
+	 
+}
+
+footer{
+	display: block;
+	justify-content: space-between;
+	text-align: right;
+	background-color: black;
+	margin: 0px;
+}
+
+@media (min-width: 780px){
+
+
+	.cabecera-superior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	}
+	.inferior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	}
+	.margen{
+		margin: 0px 20px;
+	}
+	.tabla{
+		display: flex;
+		justify-content: space-between;
+	}
+	.centrar{
+		text-align: center;
+	}
+	.margeninfo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0px 200px 0px 200px ;
+    }
+    .margentitulo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 200px 0px 200px ;
+    }
+    .margenintro{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+    }
+    .tablareco{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+	}
+
+	.indiceimagen{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	margin: -100px 200px 0px 200px;
+	}
+	.canciones{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+	.canciones2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+	.playlistfila{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+	.reaccion{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 300px 0px 300px ;
+	}
+	.lista-generos{
+	column-rule: white dashed 3px;
+	columns: 3;
+	text-align: center; 
+	font-size: 20px;
+	margin:0px;
+	}
+}
+

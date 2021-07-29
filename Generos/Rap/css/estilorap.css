@@ -1,0 +1,547 @@
+
+
+body{
+	font-family:'Noto Sans JP' ;
+	font-size: 1rem;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.fnegro{
+	background: url(https://image.freepik.com/foto-gratis/pared-ladrillo-negro-loft-diseno-interiores-pintura-negra-fachada_73152-3986.jpg);
+}
+.fblanco{
+	background-color: white;
+}
+
+.imagen2{
+	width: 60%;
+	height: 55%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100px;
+}
+
+.imagen{
+	width: 60%;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.imgA1 {
+	position: relative;
+  z-index: 1;
+  left: 20%;
+}
+.imgB1 {
+	position: absolute;
+  z-index: 11;
+  top: 45%;
+  left: 20%;
+  
+}  
+
+.contenedor-portada-main{
+width: 100%;
+height: 1150px;
+
+}
+
+.contenedor-portada{
+position: relative;
+width: 100%;
+height: 100%;
+margin: 0px;
+border:  0px;
+}
+
+.margen{
+	margin: 0px 20px;
+	
+}
+
+.texto{
+	
+}
+.cabecera-superior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	background-color: #000000;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+strong{
+	font-weight: bold;
+}
+
+.mushare{
+	padding: 20px 180px;
+	font-size: 28px;
+	color: white;
+}
+
+/*----------------------
+      DESCRIPCCION
+------------------------*/
+
+.div1{
+	width: 100%;height: 70%;align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.field2{
+	margin: 20px; border-color: #E3E4E7; border-style: double; border-radius: 20px; background-color: #FFFFFF height:500px;align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.contenedor-menus{
+width: 100%;
+text-align: center;
+display: flex;
+flex-direction: row;
+height: 800px;
+
+}
+
+
+.contenedor-indice{
+
+width: 30%;
+height: 800px;
+
+}
+
+
+.contenedor-descripcion{
+
+width: 70%;
+height: 800px;
+padding: 60px;
+}
+
+
+/*----------------------
+        ARTISTAS
+------------------------*/
+
+
+.contenedor-art{
+width: 100%;
+display: flex;
+text-align: center;
+flex-direction: row;
+}
+
+
+
+.art-main{
+	display: flex;
+	justify-content: space-between;
+	height: 500px;	
+	width: 100%;
+
+}
+.artistas-contenedor{
+	height: 500px;
+	width: 80%;
+	display: flex;
+
+}
+.border{
+	height: 500px;
+	width: 10%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.box1{
+height: 500px;
+width: 33.3%;
+display: flex;
+flex-direction: column;
+}
+
+.box2{
+height: 100%;
+width: 33.3%;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+
+.box3{
+height: 100%;
+width: 33.3%;
+display: flex;
+flex-direction: column;
+}
+
+.art-text2{
+	width: 90%;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0 0 8px #f0ad4e, 
+	0 0 2px #f0ad4e, 
+	0 0 10px #f0ad4e,
+	 0 0 6px #f0ad4e, 0 0 20px #f0ad4e, 
+	 0 0 20px #f0ad4e, 0 0 1px #f0ad4e,
+	  0 0 12px #f0ad4e;font-family: 'Noto Sans JP', sans-serif;
+}
+
+.art-text3{
+	width: 80%;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0 0 8px #f0ad4e, 
+	0 0 2px #f0ad4e, 
+	0 0 10px #f0ad4e,
+	 0 0 6px #f0ad4e, 0 0 20px #f0ad4e, 
+	 0 0 20px #f0ad4e, 0 0 1px #f0ad4e,
+	  0 0 12px #f0ad4e;font-family: 'Noto Sans JP', sans-serif;
+}
+
+.imgalbum{
+	height: 90% ;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.nomsong{
+		height: 30% ;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	 width: 100%;
+	 color: #61FDFF;text-shadow:
+							0 0 5px rgba(0,178,255,1),
+							0 0 10px rgba(0,178,255,1),
+							0 0 20px rgba(0,178,255,1),
+							0 0 40px rgba(38,104,127,1),
+							0 0 80px rgba(38,104,127,1),
+							0 0 90px rgba(38,104,127,1),
+							0 0 100px rgba(38,104,127,1),
+							0 0 140px rgba(38,104,127,1),
+							0 0 180px rgba(38,104,127,1);
+							font-family: 'Noto Sans JP', sans-serif;
+
+}
+.album{
+	height: 10% ;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	 padding-bottom: 10%;
+	 width: 100%;
+}
+.mp3{
+	color: white ;
+	text-align: center;
+	position: absolute;
+	width: 20%
+}
+
+.fondo:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.oscurecer {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url(https://previews.123rf.com/images/sqback/sqback1806/sqback180600020/104014873-graffiti-de-notas-de-la-m%C3%BAsica-de-colores-en-la-pared.jpg);
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.oscurecer1 {
+  background-image:
+    url(https://image.freepik.com/vector-gratis/luces-neon-marco-podcast-aire_52683-52647.jpg);
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+     background-position: center center;
+     align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+
+/*----------------------
+     RECOMENDACIONES
+------------------------*/
+
+
+.elementos{
+width: 33.3%;
+height: 100%;
+align-items: center;
+justify-content: center;
+display: flex;"
+
+
+}
+
+
+.indice{
+  width: 20%;
+  height: 480px;
+align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+
+.glowpink {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-decoration: none;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 
+    0 0 2px #fff, 
+    0 0 6px #293BE6, 
+    0 0 10px #293BE6, 
+    0 0 12px #293BE6, 
+    0 0 20px #293BE6,
+    0 0 20px #293BE6;
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 
+    0 0 2px #659965, 
+    0 0 6px #659965, 
+    0 0 10px #659965, 
+    0 0 12px #659965, 
+    0 0 20px #659965, 
+    0 0 20px #659965;
+  }
+}
+
+/*----------------------
+     RECOMENDACIONES
+------------------------*/
+
+.recd1{
+	background-color: #000000;width: 100%;height: 10%;align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.rectxt1{
+	text-align: center;
+	margin: 0px;color: white;
+	font-size: 28px;font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* PLAYLISTS SPOTIFY */
+
+
+.playslist{
+	background-color: #FFFFFF;
+}
+.playlisttitulo{
+	display: flex;
+	justify-content: space-between;
+}
+.playlistcolor{
+
+	background-color: #FFFFFF;
+	color: white;
+}
+.itemplaylist{
+	width: 33.3%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.playlistcolor2{
+	
+	background-color: #FFFFFF;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.tituloalbum{
+	color: black;
+
+}
+#tamaño{
+	font-size: 4rem;
+}
+.tamaño2{
+	font-size: 2rem;
+}
+
+/*------------*/
+/*   REACCION  */
+/*------------*/
+
+.reaccionfondo{
+	background-color: #FFFFFF;
+}
+.itemreaccion{
+	width: 26%;
+}
+#tituloreaccion{
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+}
+.reaccion{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 300px 0px 300px ;
+	}
+
+
+/*  FOOTER  */
+
+
+.li{
+	display: inline;
+}
+
+.ul{
+	display: block;
+	list-style-type: disc;
+	padding: 0px 40px;
+}
+.redes{
+	display: inline-flex;
+	align-items: center;
+	overflow: auto;
+	width: 60px;
+	height: 60px;
+	justify-content: flex-end;
+}
+.imgredes{
+	display: inline-flex;
+	width: 35px;
+	height: 35px;
+}
+.footer-link{
+	font-size: 1.5rem;
+	justify-content: space-between;
+	
+}
+.div-lista-de-generos{
+	margin: 0px;
+	padding: 0px;
+	 
+}
+
+
+.lista-generos{
+	column-rule: white dashed 3px;
+	columns: 3;
+	text-align: center; 
+	font-size: 20px;
+	margin:0px;
+	}
+
+
+
+@media (min-width: 700px){
+
+
+	.cabecera-superior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	}
+	.inferior{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	}
+	.margen{
+		margin: 0px 20px;
+	}
+	.tabla{
+		display: flex;
+		justify-content: space-between;
+	}
+	.centrar{
+		text-align: center;
+	}
+	.margeninfo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0px 200px 0px 200px ;
+    }
+    .margentitulo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 200px 0px 200px ;
+    }
+    .margenintro{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+    }
+    .tablareco{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 250px 0px 250px ;
+	}
+
+	.indiceimagen{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	margin: -100px 200px 0px 200px;
+	}
+	.canciones{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+	.canciones2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+	.playlistfila{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	}
+	.reaccion{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0px 300px 0px 300px ;
+	}
+}
+
+
